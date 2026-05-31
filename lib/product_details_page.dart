@@ -37,11 +37,10 @@ class _ProductDetailsPageState extends State<ProductDetailsPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center(
-          child: Text(
-            'Details Page',
-            style: TextStyle(fontSize: 32, fontWeight: FontWeight.w400),
-          ),
+        centerTitle: true,
+        title: Text(
+          'Details Page',
+          style: TextStyle(fontSize: 30, fontWeight: FontWeight.w400),
         ),
       ),
       body: Column(
